@@ -1,0 +1,40 @@
+<! use ! enter to add html template>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title> <! title is the name of the tab>
+    <link rel="stylesheet" href="style.css"> <! link is to link css file>
+</head>
+<body>
+    <h1 style = "color:blue">DS4200 Visualization</h1> <! h1 is header>
+    <h3>A subtitle</h3> <! h3 is subheader>
+
+    <button id = "navigateButton">Go to another page</button>
+    <script>
+        const navigateButton = document.getElementByID('navigateButton');
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'test.html';
+        });
+    </script> <! script is to link javascript file, linking where the button goes>
+
+    <p>My name is Kaydence Lin</p> <! p is paragraph>
+    I will get an A in DS4200
+    <p>Today is a <b>good</b> day</p> <! b is bold text>
+
+    <a href="https://www.northeastern.edu">Please check my university website</a> <! a is hyperlink, adding text after url will hyperlink that text>
+
+    <p>To do list</p>
+    <ul> <! ul is unordered list>
+    <! use ol for ordered list, 1. 2. 3., numerical list>
+        <li>Finish homework</li> <! li is list item>
+        <li>Talk to TA</li>
+        <li>Buy groceries</li>
+    
+        <img src="https://cf.ltkcdn.net/small-pets/images/orig/204252-1697x1131-dwarf-rabbit_new.jpg" alt="Show Picture"> 
+        <! img is image, src is image address, alt is text that shows if image is not available>
+
+
+</body>
+</html>
